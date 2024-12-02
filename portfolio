@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Your Name | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header>
+    <nav>
+      <div class="container">
+        <h1>Your Name</h1>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <section id="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>Write a short bio about yourself here. Explain your skills, passions, and career goals.</p>
+      <img src="images/your-photo.jpg" alt="Your Photo">
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="container">
+      <h2>My Projects</h2>
+      <div class="project-cards">
+        <div class="card">
+          <img src="images/project1.jpg" alt="Project 1">
+          <h3>Project Title</h3>
+          <p>Brief description of the project. Include technologies used and what you learned.</p>
+          <a href="https://github.com/yourusername/project1" target="_blank">View Project</a>
+        </div>
+        <div class="card">
+          <img src="images/project2.jpg" alt="Project 2">
+          <h3>Project Title</h3>
+          <p>Brief description of the project. Include technologies used and what you learned.</p>
+          <a href="https://github.com/yourusername/project2" target="_blank">View Project</a>
+        </div>
+        <!-- Add more project cards as needed -->
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <form action="#" method="POST">
+        <label for="name">Your Name</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Your Email</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Your Message</label>
+        <textarea id="message" name="message" required></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2024 Your Name. All rights reserved.</p>
+      <div class="socials">
+        <a href="https://github.com/yourusername" target="_blank">GitHub</a>
+        <a href="https://www.linkedin.com/in/yourusername" target="_blank">LinkedIn</a>
+        <a href="mailto:your.email@example.com">Email</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
